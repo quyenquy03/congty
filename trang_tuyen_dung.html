@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="asset/css/grid_primary.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/base.css">
+    <link rel="stylesheet" href="asset/css/reponsive.css">
+</head>
+<body>
+    <div id="main">
+        <div class="header-menu-mobile hidden-pc ">
+            <span class="close-menu-mobile"><i class="fa-regular fa-circle-xmark"></i></span>
+            <br>
+            <li class="header-menu-item" ><a href="">Trang Chủ </a></li>
+            <li class="header-menu-item" ><a href="index.html">Giới Thiệu </a></li>
+            <li class="header-menu-item" ><a href="index.html">Tin Tức & Sự Kiện </a></li>
+            <li class="header-menu-item" ><a href="index.html">Công bố thông tin </a></li>
+            <li class="header-menu-item" ><a href="index.html">Dự Án </a></li>
+            <li class="header-menu-item" ><a href="trang_tuyen_dung.html">Tuyển dụng </a></li>
+            <li class="header-menu-item" ><a href="index.html">Liên hệ</a></li>
+            
+            
+        </div>
+        <div class="header">
+            <div class="header-slide">
+                <div class="header-slide-list">
+                    <!-- <img class="header-slide-image hidden-mobile" src="asset/image/slide-1.jpeg" alt=""> -->
+                    <img class="header-slide-image" style="height: 60%" src="asset/image/slide-2.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="header-navbar ">
+                <div class="header-logo">
+                    <img class="header-logo-image height-200" src="asset/image/logo.png" alt="">
+                    <!-- <div class="header-logo-image">
+                    </div> -->
+                </div>
+                <div class="header-menu hidden-mobile">
+                    <li class="header-menu-item" ><a href="index.html">Trang Chủ </a></li>
+                    <li class="header-menu-item" ><a href="index.html">Giới Thiệu </a></li>
+                    <li class="header-menu-item" ><a href="index.html">Tin Tức & Sự Kiện </a></li>
+                    <li class="header-menu-item" ><a href="index.html">Công bố thông tin </a></li>
+                    <li class="header-menu-item" ><a href="index.html">Dự Án </a></li>
+                    <li class="header-menu-item" ><a href="trang_tuyen_dung.html">Tuyển dụng </a></li>
+                    <li class="header-menu-item" ><a href="index.html">Liên hệ</a></li>
+                    <li class="header-menu-item " ><i class="social-icon fa-solid fa-magnifying-glass"></i></li>
+                    <li class="header-menu-item" ><a href="">EN</a></li>
+                    <li class="header-menu-item" >
+                        <div class="header-social-icon">
+                            <span class="social-icon facebook-icon"><i class="fa-brands fa-facebook"></i></span>
+                            <span class="social-icon twiter-icon"><i class="fa-brands fa-twitter"></i></span>
+                            <span class="social-icon ytb-icon"><i class="fa-brands fa-youtube"></i></span>
+                        </div>
+                    </li>
+                </div>
+                <div class="header-menu-icon hidden-pc ">
+                    <i class="fa-solid fa-bars menu-icon"></i>
+                </div>
+                
+            </div>
+
+            <div class="header-content">
+                <h4 class="header-content-name">TUYỂN DỤNG</h4>
+                <p class="breadcrum">Bạn đang ở : <span> Trang chủ </span> <i class="fa-solid fa-angles-right"></i> <span>TUYỂN DỤNG</span> </p>
+                <div class="time-list">
+                    <span class="time-item">1989</span>
+                    <span class="time-item">2013</span>
+                    <span class="time-item  ">2015</span>
+                    <span class="time-item">2016</span>
+                    <span class="time-item">2017</span>
+                    <span class="time-item">2018</span>
+                    <span class="time-item">2019</span>
+                    <span class="time-item">2020</span>
+                    <span class="time-item">2021</span>
+                    <span class="time-item">2022</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="body-box">
+            <div class="body-box-tab">
+                <div class="container">
+                    <div class="w3-row row">
+                      <a href="javascript:void(0)" class="col l-3 c-12" onclick="openCity(event, 'London');">
+                        <div class=" tablink w3-bottombar w3-hover-light-grey w3-padding " >CÔNG BỐ THÔNG TIN</div>
+                      </a>
+                      <a href="javascript:void(0)" class="col l-3 c-12" onclick="openCity(event, 'Paris');">
+                        <div class=" tablink w3-bottombar w3-hover-light-grey w3-padding  ">BÁO CÁO TÀI CHÍNH</div>
+                      </a>
+                      <a href="javascript:void(0)" class="col l-3 c-12" onclick="openCity(event, 'Tokyo');">
+                        <div class=" tablink w3-bottombar w3-hover-light-grey w3-padding ">THÔNG BÁO</div>
+                      </a>
+                      <a href="javascript:void(0)" class="col l-3 c-12" onclick="openCity(event, 'last');">
+                        <div class=" tablink w3-bottombar w3-hover-light-grey w3-padding ">TUYỂN DỤNG</div>
+                      </a>
+                      
+                    </div>
+                    
+                    <div class="row content-list">
+                        <div class="col l-9 c-12">
+                            <div id="London" class="w3-container city" style="display:block">
+                                <div class="content-item">
+                                    <div class="content-item-time">07/06/2022</div>
+                                    <div class="content-item-desc">Tb: Về việc tuyển dụng Phó giám đốc phụ trách kinh doanh - Ban QLDA XDCT HUDTOWER - Tổng công ty Đầu tư phát triển nhà và đô thị.</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">29/10/2020</div>
+                                    <div class="content-item-desc">Tổng công ty thông báo tuyển dụng nhân sự làm việc tại Ban Pháp chế.</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">21/08/2020</div>
+                                    <div class="content-item-desc">Tổng công ty thông báo tuyển dụng nhân sự làm việc tại Ban Quản lý tòa nhà trực thuộc Ban QLDA XDCT HUDTOWER</div>
+                                </div>
+                                
+                            </div>
+                          
+                            <div id="Paris" class="w3-container city" style="display:none">
+                                <div class="content-item">
+                                    <div class="content-item-time">28/04/2022</div>
+                                    <div class="content-item-desc">Báo cáo Tài chính hợp nhất năm 2021</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">22/04/2022</div>
+                                    <div class="content-item-desc">Báo cáo Tài chính Tổng hợp năm 2021</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">22/04/2022</div>
+                                    <div class="content-item-desc">Công bố thông tin định kỳ về tình hình thanh toán gốc, lãi năm 2021</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">22/04/2022</div>
+                                    <div class="content-item-desc">Công bố thông tin định kỳ (HNX) về trái phiếu cả năm 2021
+                                    </div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">18/04/2022</div>
+                                    <div class="content-item-desc">Báo cáo Tài chính Tổng hợp năm 2021</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">08/06/2021</div>
+                                    <div class="content-item-desc">Báo cáo Tài chính hợp nhất - Cho năm tài chính kết thúc ngày 31/12/2020</div>
+                                </div>
+                            </div>
+                          
+                            <div id="Tokyo" class="w3-container city" style="display:none">
+                                <div class="content-item">
+                                    <div class="content-item-time">27/10/2022</div>
+                                    <div class="content-item-desc">THƯ MỜI BÁO GIÁ: Tổng công ty HUD trân trọng mời các đơn vị thẩm định giá có đủ năng lực, kinh nghiệm tham gia Báo giá cạnh tranh gói cung cấp dịch vụ tư vấn thẩm định giá 21 căn Nhà ở thấp tầng xây thô hoàn thiện mặt ngoài hình thành trong tương lai gắn với quyền sử dụng đất ở đã có hạ tầng tại các lô đất có ký hiệu NV-01, BT-04, BT*-01, BT*-02 thuộc dự án Khu đô thị mới Thanh Lâm - Đại Thịnh 2, huyện Mê Linh, Tp Hà Nội
+                                    </div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">29/09/2022</div>
+                                    <div class="content-item-desc">Thông báo: Tổng công ty Đầu tư phát triển nhà và Đô thị mở bán 04 căn Nhà ở thấp tầng hình thành trong tương lai thuộc Dự án Khu đô thị mới Thanh Lâm - Đại Thịnh 2, huyện Mê Linh, Thành phố Hà Nội</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">27/09/2022</div>
+                                    <div class="content-item-desc">Thư mời báo giá Cung cấp dịch vụ thẩm định giá bất động sản Dự án khu nhà ở thấp tầng số 5, trường mầm non số 1, 2, 3, 4 và trường tiểu học số 1, 2 thuộc Khu đô thị mới Đông Tăng Long
+                                    </div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">27/10/2022</div>
+                                    <div class="content-item-desc">THƯ MỜI BÁO GIÁ: Tổng công ty HUD trân trọng mời các đơn vị thẩm định giá có đủ năng lực, kinh nghiệm tham gia Báo giá cạnh tranh gói cung cấp dịch vụ tư vấn thẩm định giá 21 căn Nhà ở thấp tầng xây thô hoàn thiện mặt ngoài hình thành trong tương lai gắn với quyền sử dụng đất ở đã có hạ tầng tại các lô đất có ký hiệu NV-01, BT-04, BT*-01, BT*-02 thuộc dự án Khu đô thị mới Thanh Lâm - Đại Thịnh 2, huyện Mê Linh, Tp Hà Nội
+                                    </div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">29/09/2022</div>
+                                    <div class="content-item-desc">Thông báo: Tổng công ty Đầu tư phát triển nhà và Đô thị mở bán 04 căn Nhà ở thấp tầng hình thành trong tương lai thuộc Dự án Khu đô thị mới Thanh Lâm - Đại Thịnh 2, huyện Mê Linh, Thành phố Hà Nội</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">27/09/2022</div>
+                                    <div class="content-item-desc">Thư mời báo giá Cung cấp dịch vụ thẩm định giá bất động sản Dự án khu nhà ở thấp tầng số 5, trường mầm non số 1, 2, 3, 4 và trường tiểu học số 1, 2 thuộc Khu đô thị mới Đông Tăng Long
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="last" class="w3-container city" style="display:none">
+                                <div class="content-item">
+                                    <div class="content-item-time">22/04/2022</div>
+                                    <div class="content-item-desc">Tb: Về việc tuyển dụng Phó giám đốc phụ trách kinh doanh - Ban QLDA XDCT HUDTOWER - Tổng công ty Đầu tư phát triển nhà và đô thị.
+                                    </div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">29/10/2020</div>
+                                    <div class="content-item-desc">Tổng công ty thông báo tuyển dụng nhân sự làm việc tại Ban Pháp chế.</div>
+                                </div>
+                                <div class="space"></div>
+                                <div class="content-item">
+                                    <div class="content-item-time">21/08/2020</div>
+                                    <div class="content-item-desc">Tổng công ty thông báo tuyển dụng nhân sự làm việc tại Ban Quản lý tòa nhà trực thuộc Ban QLDA XDCT HUDTOWER</div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col l-3 c-0" style="background-color: #ccc; height: 200px; border-radius: 10px">
+                            <h3>TUYỂN DỤNG</h3>
+                            <li style="list-style-type: circle;">CÔNG BỐ THÔNG TIN</li>
+                            <li style="list-style-type: circle;">BÁO CÁO TÀI CHÍNH</li>
+                            <li style="list-style-type: circle;">THÔNG BÁO</li>
+                            <li style="list-style-type: circle;">LỊCH CÔNG TÁC</li>
+                            <li style="list-style-type: circle;">TUYỂN DỤNG</li>
+                        </div>
+
+                    </div>
+
+                  </div>
+            </div>
+        </div>
+        <div class="footer-box">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 c-12">
+                        <div class="footer-item">
+                            <h2 class="footer-top">ĐỊA CHỈ</h2>
+                            
+                            <p class="footer-desc">Toà nhà HUDTOWER, Số 37, Lê Văn Lương, Nhân Chính, Thanh Xuân, Hà Nội, Việt Nam</p>
+                            <p class="footer-desc">SĐT: (84 4)3773 8600</p>
+                            <p class="footer-desc">EMAIL: info@HUD.com.vn</p>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer-item">
+                            <h2 class="footer-top">LINK NỘI BỘ</h2>
+                            
+                            <p class="footer-desc">Email nội bộ </p>
+                            <p class="footer-desc">Văn phòng điện tử IOFFICE </p>
+                            <p class="footer-desc">Văn phòng điện tử cũ</p>
+                            <p class="footer-desc">Quản lý nhân sự</p>
+                            <p class="footer-desc">Lịch công tác</p>
+                            <p class="footer-desc">Thư viện ảnh</p>
+                            <p class="footer-desc">Thư viện video</p>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer-item">
+                            <h2 class="footer-top">TIN TỨC & SỰ KIỆN</h2>
+                            
+                            <p class="footer-desc">Tin tổng công ty </p>
+                            <p class="footer-desc">Tin đơn vị Thành viên </p>
+                            <p class="footer-desc">Tin Ngành</p>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer-item">
+                            <h2 class="footer-top">VỀ CHÚNG TÔI</h2>
+                            
+                            <p class="footer-desc">Giới thiệu chung </p>
+                            <p class="footer-desc">Lịch sử phát triển </p>
+                            <p class="footer-desc">Sơ đồ tổ chức</p>
+                            <p class="footer-desc">Hội đồng thành viên</p>
+                            <p class="footer-desc">Ban tổng giám đốc</p>
+                            <p class="footer-desc">Danh hiệu và khen thưởng</p>
+                            <p class="footer-desc">Sitemap</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-social-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="asset/javascript/index.js"></script>
+    <script>
+        function openCity(evt, cityName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-border-red";
+        }
+
+        var headerImages = document.querySelectorAll('.header-slide-image')
+        var headerImageList = document.querySelector('.header-slide-list')
+        const slider = {
+            slideList : headerImageList,
+            slideItems : headerImages,
+            timeDuration : 3000
+        }
+        changeSlide(slider);
+        // header-navbar header-fixed
+        var headerNavbar = document.querySelector('.header-navbar')
+        
+        document.onscroll = function() {
+            if(window.pageYOffset > 90) {
+                headerNavbar.style.backgroundColor = "#0879b5";
+                headerNavbar.style.position = "fixed";
+                headerNavbar.style.boxShadow = "0 0 4px #ccc";
+            } else {
+                headerNavbar.style.backgroundColor = "transparent";
+                headerNavbar.style.position = "absolute";
+                headerNavbar.style.boxShadow = "none";
+            }   
+        }
+        var closeMenuMobile = document.querySelector('.close-menu-mobile')
+        var headerMenuMobile = document.querySelector('.header-menu-mobile')
+        var headerMenuIcon = document.querySelector('.header-menu-icon')
+        closeMenuMobile.onclick = function() {
+            headerMenuMobile.style.right = "-50%"
+        }
+        headerMenuIcon.onclick = function () {
+            headerMenuMobile.style.right = "0"
+        }
+        headerMenuMobile.onblur = function() {
+            headerMenuMobile.style.right = "0"
+        }
+
+    </script>
+</body>
+</html>
